@@ -19,3 +19,8 @@ console.log(personal_address);
 
 // Try this out vanessa , declare two variables that will keep your firstname , and surname
 // print them to the console
+
+var firstname = "vanessa";
+var surname = "Narciso";
+console.log(firstname);
+console.log(surname);
