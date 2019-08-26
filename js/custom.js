@@ -61,3 +61,18 @@ else{
   declare 2 variables weight and age , weight index (weight/age) e.g 2
   you check if weigh index > 3  , console obesity, >=2 normal , <2 you are  slim
 */
+
+var weight = 6;
+var age = 2;
+var weight_index = weight/age;
+
+if(weight_index >= 3)
+{
+   console.log("obesity");
+}
+else if (weight_index >= 2) {
+  console.log("normal");
+}
+else{
+  console.log(" slim");
+}
