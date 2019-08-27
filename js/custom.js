@@ -63,7 +63,7 @@ else{
 */
 
 var weight = 6;
-var age = 2;
+var age = 4;
 var weight_index = weight/age;
 
 if(weight_index >= 3)
