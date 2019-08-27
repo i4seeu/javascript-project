@@ -62,8 +62,8 @@ else{
   you check if weigh index > 3  , console obesity, >=2 normal , <2 you are  slim
 */
 
-var weight = 6;
-var age = 2;
+var weight = 9;
+var age = 3 ;
 var weight_index = weight/age;
 
 if(weight_index >= 3)
