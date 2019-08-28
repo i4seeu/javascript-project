@@ -43,4 +43,12 @@ function details(){
    document.getElementById("full_name").innerHTML = full_name;
 }
 
-details();
+function average(num1, num2, num3)
+{
+  var ave = (num1 + num2 + num3)/3;
+  return ave;
+}
+
+var average_numbers = average(3,4,4);
+console.log(average_numbers);
+console.log(average(2,3,5));
