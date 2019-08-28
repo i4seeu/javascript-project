@@ -42,6 +42,9 @@ function details(){
 
    document.getElementById("full_name").innerHTML = full_name;
 }
+details();
+
+/*finding average*/
 
 function average(num1, num2, num3)
 {

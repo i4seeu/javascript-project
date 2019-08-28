@@ -4,12 +4,13 @@ console.log("Multiple line comment");
 /*
 This is the world of programming and is fun
 */
+
 // = assignment operator
 var name = "Noordeen Malango";
 console.log(name);
 console.log(name);
 
-
+// using 2 different variable names to identify the different addresses
 var company_address = "private bag 360, chichiri Blantyre";
 var personal_address = "p.o box 287, Chilomoni, Balntyre";
 console.log(company_address);
@@ -35,6 +36,7 @@ else
 {
   console.log("You are illegible to access the site");
 }
+
 // else if block
 var mark = 80;
 
