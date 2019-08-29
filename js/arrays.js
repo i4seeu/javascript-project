@@ -45,4 +45,11 @@ console.log(arr_numebrs);
 delete arr_numebrs[2];
 console.log(arr_numebrs);
 
-// create an associative array of a president , name , country, when_did, and write a code that displays that inform 
+// create an associative array of a president , name , country, when_did, and write a code that displays that inform
+
+var president = [];
+president["name"] = "Noordeen";
+president["country"] = "Malawi";
+president["when_did"] = "2020";
+
+console.log(president);
