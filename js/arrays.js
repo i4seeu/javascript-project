@@ -1,3 +1,4 @@
+//arrays you start counting from 0 1 2 etc
 var nums = [1,2,3,4,5];
 var arr = [1, "Noordeen", 4];
 
@@ -13,10 +14,12 @@ for(var i = 0; i < len; i++){
 1 2 3 4     00, 01, 02 , 03
 4 5 7 8     10, 11, 12, 13
 */
+
 //mutidimensional array
 var numbers = [[1, 2, 3 ,4],[4 ,5 ,7 ,8]];
 
 console.log(numbers[1][0]);
+
 // associative arrays
 var person = [];
 person["name"] = "Noordeen";
@@ -31,9 +34,11 @@ console.log(person.country);
 
 var arr_numebrs = [1,3,6,7];
 console.log(arr_numebrs);
+
 // adds an element to the array
 arr_numebrs.push(8);
 console.log(arr_numebrs);
+
 // removes the last element in an array
 arr_numebrs.pop();
 console.log(arr_numebrs);
@@ -42,6 +47,7 @@ console.log(arr_numebrs);
 arr_numebrs.shift();
 console.log(arr_numebrs);
 
+//deletes the required value but it replaces it with "empty slot" 
 delete arr_numebrs[2];
 console.log(arr_numebrs);
 
